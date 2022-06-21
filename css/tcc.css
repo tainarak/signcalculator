@@ -1,0 +1,194 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: 0;
+    }
+
+body{
+    margin: 0px;
+    padding: 10px;
+    font-family: sans-serif;
+    border: none;
+    background-color: rgba(219,150,219,1);
+}
+
+.titulo {
+    display: none;
+}
+
+h2{
+    list-style-type: none;
+    text-decoration: none;
+    color: rgb(37, 30, 30);
+    background-color: white;
+    text-align: center;
+    margin-bottom: 5%;
+    border: 2px;
+}
+
+.menu{ 
+    list-style-type: none;
+}
+
+p{
+    text-align: center;
+}
+
+.signo1{
+    flex-grow: 1;
+    flex-direction: column;
+    width: center;
+    position: left;
+    align-items: baseline;
+    display: inline-block;
+    line-height: 1.5em;
+    outline: 0;
+    margin-right: 120px;
+}
+
+.signo2{
+    flex-grow: 1;
+    flex-direction: column;
+    position:right;
+    align-items: baseline;
+    display: inline-block;
+    line-height: 1.5em;
+    outline: 0;
+    margin-left: 120px;
+}
+
+#imagem1 img,#imagem2 img{
+    height: 200px;
+}
+
+
+h3 {
+    position: relative;
+    text-align: center;
+}
+
+.formulario{
+    position: absolute;
+    background-color: white;
+    text-align: center;
+    margin: 0px;
+    width: calc(100% - 20px);
+    height: 400px;
+    flex-grow: 5;
+    flex-direction: column;
+    padding: 10px;
+}
+
+li{
+    flex-grow: 1;
+    flex-direction: column;
+    display: inline;
+}
+
+select {
+    -webkit-appearance: none;
+    /* Remove estilo padrão do Chrome */
+    -moz-appearance: none;
+    /* Remove estilo padrão do FireFox */
+    appearance: none;
+    /* Remove estilo padrão do FireFox*/
+    background-position: 218px center;
+    /*Posição da imagem do background*/
+    height: 30px;
+    /* Altura do select, importante para que tenha a mesma altura em todo os navegadores */
+    border: 1px solid  #ddd ;
+    flex-grow: 5;
+    flex-direction: column;
+    display: relative;
+    text-align: center;
+    box-sizing: border-box;
+    border-radius: 10px;
+    padding: 7px;
+    text-align-last: center;
+}
+
+.compatibilidade-botao {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    background-position: 218px center;
+    height: 30px;
+    border: 1px solid  #ddd ;
+    flex-grow: 5;
+    flex-direction: column;
+    display: relative;
+    text-align: center;
+    box-sizing: border-box;
+    border-radius: 10px;
+    padding: 7px;
+    text-align-last: center;
+}
+
+.compatibilidade-botao:hover {
+    transform: scale(1.1);
+    transition: all 0.5s;
+    transition-delay: 0.2s;
+    background-color: rgb(134,49,64);
+}
+
+@viewport {
+    width: device-width ;
+    zoom: 1.0 ;
+}
+
+table {
+    width: 500px;
+    margin: 0 auto;
+    table-layout: fixed;
+}
+
+td {
+    width: 200px;
+    height: 263px;
+    vertical-align: top;
+}
+
+td img {
+    width: 200px;
+}
+
+td:nth-child(2){
+    position: relative;
+    vertical-align: middle;
+    width: 100px;
+}
+
+td:nth-child(2) img{
+    position: absolute;
+    top: 50%;
+    left: 0;
+    width: 100%;
+    transform:translateY(-50%); /* move conforme o elemento e não onde ele "ta dentro", pode seguir a regra do top e left*/
+    
+}
+
+
+a:hover{
+    background-color: aliceblue;
+    color: black;
+}
+
+.opcao1 {
+    clip: rect(75px,100px,100px,0); /* 1/4 */
+    }
+
+.opcao2 {
+    clip: rect(50px,100px,100px,0); /* 2/4 */
+    }
+
+.opcao3 {
+    clip: rect(25px,100px,100px,0); /* 3/4 */
+    }
+
+.opcao4 {
+        clip: rect(0px,100px,100px,0); /* 4/4 */
+    }
+
+.opcao0 {
+        display:none /* 0/4 */
+}

@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgba(219, 150, 219, 1);
+    padding: 10px;
+}
+
+iframe{
+  margin-left: 26%;
+  border: 15px solid purple;
+  border-radius: 10px;
+
+}
+.footer{
+  text-align: right;
+  margin-right: 20px;
+  margin-top: 50px;
+  text-align-last: right;
+  margin-top: 50px;
+  margin-bottom: 100px;
+}
+
+.footer a{
+  color: white;
+  background-color: purple;
+  border-radius: 20px;
+  padding: 10px;
+  
+}
+
+
+
+
+
+
